@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="java">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../TestFX-master/subprojects/testfx-core/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../TestFX-master/subprojects/testfx-internal-java8/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../TestFX-master/subprojects/testfx-internal-java9/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../TestFX-master/subprojects/testfx-junit5/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../TestFX-master/subprojects/testfx-junit5/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../TestFX-master/subprojects/testfx-junit/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../TestFX-master/subprojects/testfx-junit/src/test/java" />
+    </SOURCES>
+  </library>
+</component>
