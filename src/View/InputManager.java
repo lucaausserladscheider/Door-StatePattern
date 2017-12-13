@@ -4,15 +4,26 @@ import java.util.Scanner;
 
 import Model.Door;
 
-
+/**
+ * Die Klasse InputManager handelt die Consolen Eingaben und gibt den StartScreen aus
+ * @author Luca Ausserladscheider
+ */
 public class InputManager {
 
     private Door door;
 
+    /**
+     * Konstruktor der Klasse InputManager, nimmt ein aktuelles Türobject entgegen
+     * @param door
+     */
     public InputManager ( Door door ) {
         this.door = door;
     }
 
+    /**
+     * start() implementiert ein Scanner Objekt für die Konsolen Eingaben
+     * prüft die Eingaben und entscheidet was zu tun ist
+     * */
     public void start () {
         Scanner in = new Scanner ( System.in );
         startView ();
@@ -37,6 +48,9 @@ public class InputManager {
         }
     }
 
+    /**
+     * gibt auf der Konsole die Start Ausgabe aus
+     */
     public void startView () {
         System.out.println ( "******************************************************************" );
         System.out.println ( "Du stehst vor einer Türe!" );
