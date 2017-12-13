@@ -1,3 +1,5 @@
+package Model;
+
 public class ClosedAndLockedState implements DoorState {
 
     private Door door;
@@ -31,4 +33,10 @@ public class ClosedAndLockedState implements DoorState {
         System.out.println ("Du hast erfolgreich die Türe eingetreten!");
         door.setDoorState ( new SmashedState (door) );
     }
+
+    @Override
+    public String stateStr () {
+        return "Abgesperrt und Geschlossen!";
+    }
+
 }

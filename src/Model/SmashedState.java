@@ -1,3 +1,5 @@
+package Model;
+
 public class SmashedState implements DoorState {
     private Door door;
 
@@ -28,4 +30,10 @@ public class SmashedState implements DoorState {
     public void smashDoor () {
         System.out.println ("Die Türe ist bereits eingetreten!");
     }
+
+    @Override
+    public String stateStr () {
+        return "Zerstört!";
+    }
+
 }

@@ -1,3 +1,5 @@
+package Model;
+
 public class OpenState implements DoorState {
 
     private Door door;
@@ -30,5 +32,10 @@ public class OpenState implements DoorState {
     public void smashDoor () {
         System.out.println ("Du hast eine offene Türe eigetreten!");
         door.setDoorState ( new SmashedState (door) );
+    }
+
+    @Override
+    public String stateStr () {
+        return "Offen!";
     }
 }

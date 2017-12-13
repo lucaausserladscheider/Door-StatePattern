@@ -1,3 +1,5 @@
+package Model;
+
 public interface DoorState {
 
     void openDoor();
@@ -5,5 +7,6 @@ public interface DoorState {
     void lockDoor();
     void unlockDoor();
     void smashDoor();
+    String stateStr();
 
 }
